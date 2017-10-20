@@ -23,9 +23,9 @@ public class TicketMachine
      * The price of the ticket is 1000 cents
      * 
      */
-    public TicketMachine(int cost)
+    public TicketMachine()
     {
-        price = cost;
+        price = 1000;
         balance = 0;
         total = 0;
     }
