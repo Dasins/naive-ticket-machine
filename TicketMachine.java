@@ -29,7 +29,19 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
-
+     
+    /**
+     * Create a machine that issues tickets of the given price.
+     * The price of the ticket is 1000 cents
+     * 
+     */
+    public TicketMachine(int cost)
+    {
+        price = cost;
+        balance = 0;
+        total = 0;
+    }
+    
     /**
      * Show the price of one ticket.
      */
