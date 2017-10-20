@@ -101,4 +101,13 @@ public class TicketMachine
     {
         return total;
     }
+    
+    /**
+     * Extract money.
+     * Set the total income on 0
+     */
+    public void vaciar()
+    {
+        total = 0;
+    }
 }
